@@ -1,0 +1,53 @@
+	<div class="elementor-shortcode">
+		<div class="elementor-element elementor-element-a12d421 e-grid e-con-boxed e-con e-parent e-lazyloaded"  data-element_type="container">
+			<div class="e-con-inner">
+			
+			
+			<div class="elementor-element elementor-element-e46b660 exad-sticky-section-no exad-glass-effect-no elementor-widget elementor-widget-wpforms" data-id="e46b660" data-element_type="widget" data-widget_type="wpforms.default">
+			
+			
+		<div id="controls">
+			<select id="modeSelect">
+				<option value="mode1">Mode 1: Search plot by address</option>
+				<option value="mode2">Mode 2: Find roads and connect points</option>
+			</select>
+			
+			<div id="mode1Fields">
+				<input type="text" id="addressInput" placeholder="Enter address" class="pac-target-input" autocomplete="off">
+				<button id="searchButton1">Find and draw plot</button>
+			</div>
+
+			<div id="mode2Fields" class="hidden">
+				<input type="text" id="coordinatesPoint1" placeholder="Coordinates of Point 1 (lat, lon)">
+				<input type="text" id="coordinatesPoint2" placeholder="Coordinates of Point 2 (lat, lon)">
+				<button id="searchButton2">Find roads and connect points</button>
+			</div>
+		</div>
+		
+		
+		
+		</div>
+		
+					<div class="elementor-element elementor-element-6661b1f exad-sticky-section-no exad-glass-effect-no elementor-widget elementor-widget-google_maps" data-id="6661b1f" data-element_type="widget" data-widget_type="google_maps.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-custom-embed">
+			<div id="map" style="height: 500px; position: relative;" class="leaflet-container leaflet-touch leaflet-fade-anim leaflet-grab leaflet-touch-drag leaflet-touch-zoom" tabindex="0"><div class="leaflet-pane leaflet-map-pane" style="transform: translate3d(0px, 0px, 0px);"><div class="leaflet-pane leaflet-tile-pane"><div class="leaflet-layer " style="z-index: 1; opacity: 1;"><div class="leaflet-tile-container leaflet-zoom-animated" style="z-index: 20; transform: translate3d(0px, 0px, 0px) scale(1);"><img alt="" role="presentation" src="http://mt0.google.com/vt/lyrs=s&amp;x=144&amp;y=80&amp;z=8" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(349px, 55px, 0px); opacity: 1;"><img alt="" role="presentation" src="http://mt1.google.com/vt/lyrs=s&amp;x=145&amp;y=80&amp;z=8" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(605px, 55px, 0px); opacity: 1;"><img alt="" role="presentation" src="http://mt3.google.com/vt/lyrs=s&amp;x=144&amp;y=79&amp;z=8" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(349px, -201px, 0px); opacity: 1;"><img alt="" role="presentation" src="http://mt0.google.com/vt/lyrs=s&amp;x=145&amp;y=79&amp;z=8" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(605px, -201px, 0px); opacity: 1;"><img alt="" role="presentation" src="http://mt1.google.com/vt/lyrs=s&amp;x=144&amp;y=81&amp;z=8" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(349px, 311px, 0px); opacity: 1;"><img alt="" role="presentation" src="http://mt2.google.com/vt/lyrs=s&amp;x=145&amp;y=81&amp;z=8" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(605px, 311px, 0px); opacity: 1;"><img alt="" role="presentation" src="http://mt3.google.com/vt/lyrs=s&amp;x=143&amp;y=80&amp;z=8" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(93px, 55px, 0px); opacity: 1;"><img alt="" role="presentation" src="http://mt2.google.com/vt/lyrs=s&amp;x=146&amp;y=80&amp;z=8" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(861px, 55px, 0px); opacity: 1;"><img alt="" role="presentation" src="http://mt2.google.com/vt/lyrs=s&amp;x=143&amp;y=79&amp;z=8" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(93px, -201px, 0px); opacity: 1;"><img alt="" role="presentation" src="http://mt1.google.com/vt/lyrs=s&amp;x=146&amp;y=79&amp;z=8" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(861px, -201px, 0px); opacity: 1;"><img alt="" role="presentation" src="http://mt0.google.com/vt/lyrs=s&amp;x=143&amp;y=81&amp;z=8" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(93px, 311px, 0px); opacity: 1;"><img alt="" role="presentation" src="http://mt3.google.com/vt/lyrs=s&amp;x=146&amp;y=81&amp;z=8" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(861px, 311px, 0px); opacity: 1;"><img alt="" role="presentation" src="http://mt2.google.com/vt/lyrs=s&amp;x=142&amp;y=80&amp;z=8" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(-163px, 55px, 0px); opacity: 1;"><img alt="" role="presentation" src="http://mt3.google.com/vt/lyrs=s&amp;x=147&amp;y=80&amp;z=8" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(1117px, 55px, 0px); opacity: 1;"><img alt="" role="presentation" src="http://mt1.google.com/vt/lyrs=s&amp;x=142&amp;y=79&amp;z=8" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(-163px, -201px, 0px); opacity: 1;"><img alt="" role="presentation" src="http://mt2.google.com/vt/lyrs=s&amp;x=147&amp;y=79&amp;z=8" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(1117px, -201px, 0px); opacity: 1;"><img alt="" role="presentation" src="http://mt3.google.com/vt/lyrs=s&amp;x=142&amp;y=81&amp;z=8" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(-163px, 311px, 0px); opacity: 1;"><img alt="" role="presentation" src="http://mt0.google.com/vt/lyrs=s&amp;x=147&amp;y=81&amp;z=8" class="leaflet-tile leaflet-tile-loaded" style="width: 256px; height: 256px; transform: translate3d(1117px, 311px, 0px); opacity: 1;"></div></div></div><div class="leaflet-pane leaflet-shadow-pane"></div><div class="leaflet-pane leaflet-overlay-pane"></div><div class="leaflet-pane leaflet-marker-pane"></div><div class="leaflet-pane leaflet-tooltip-pane"></div><div class="leaflet-pane leaflet-popup-pane"></div><div class="leaflet-proxy leaflet-zoom-animated" style="transform: translate3d(37115.5px, 20675px, 0px) scale(128);"></div></div><div class="leaflet-control-container"><div class="leaflet-top leaflet-left"><div class="leaflet-control-zoom leaflet-bar leaflet-control"><a class="leaflet-control-zoom-in" href="#" title="Zoom in" role="button" aria-label="Zoom in">+</a><a class="leaflet-control-zoom-out" href="#" title="Zoom out" role="button" aria-label="Zoom out">−</a></div></div><div class="leaflet-top leaflet-right"></div><div class="leaflet-bottom leaflet-left"></div><div class="leaflet-bottom leaflet-right"><div class="leaflet-control-attribution leaflet-control esri-truncated-attribution:hover esri-truncated-attribution"><a href="http://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> | Powered by <a href="https://www.esri.com">Esri</a> | © Google</div></div></div></div> <!-- Элемент карты -->
+		<canvas id="elevationCanvas" width="600" height="200"></canvas> <!-- Canvas для профиля высот -->
+		
+		</div>
+				</div>
+				</div>
+		
+		
+		
+		
+		
+
+	   
+
+
+		</div>
+	</div>
+   </div>
+   
+   
