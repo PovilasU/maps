@@ -1,4 +1,38 @@
-	<div class="elementor-shortcode">
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    // Get references to the dropdown and the fields
+    const modeSelect = document.getElementById("modeSelect");
+    const mode1Fields = document.getElementById("mode1Fields");
+    const mode2Fields = document.getElementById("mode2Fields");
+
+    // Function to update visibility based on the selected mode
+    function updateFieldVisibility() {
+        if (modeSelect.value === "mode1") {
+            mode1Fields.classList.remove("hidden");
+            mode2Fields.classList.add("hidden");
+        } else if (modeSelect.value === "mode2") {
+            mode1Fields.classList.add("hidden");
+            mode2Fields.classList.remove("hidden");
+        }
+    }
+
+    // Initial update on page load
+    updateFieldVisibility();
+
+    // Add event listener to the dropdown
+    modeSelect.addEventListener("change", updateFieldVisibility);
+});
+</script>
+
+<style>
+.hidden {
+    display: none;
+}
+</style>
+
+
+
+<div class="elementor-shortcode">
 		<div class="elementor-element elementor-element-a12d421 e-grid e-con-boxed e-con e-parent e-lazyloaded"  data-element_type="container">
 			<div class="e-con-inner">
 			
