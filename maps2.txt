@@ -1,0 +1,38 @@
+<div class="elementor-shortcode">
+    <div class="elementor-element elementor-element-a12d421 e-grid e-con-boxed e-con e-parent e-lazyloaded" data-element_type="container">
+        <div class="e-con-inner">
+
+            <div class="elementor-element elementor-element-e46b660 exad-sticky-section-no exad-glass-effect-no elementor-widget elementor-widget-wpforms" data-id="e46b660" data-element_type="widget" data-widget_type="wpforms.default">
+
+                <div id="controls">
+                    <select id="modeSelect" onchange="this.classList.toggle('ast-hidden', this.value !== 'mode1')">
+                        <option value="mode1">Mode 1: Search plot by address</option>
+                        <option value="mode2">Mode 2: Find roads and connect points</option>
+                    </select>
+
+                    <div id="mode1Fields">
+                        <input type="text" id="addressInput" placeholder="Enter address" class="pac-target-input" autocomplete="off">
+                        <button id="searchButton1">Find and draw plot</button>
+                    </div>
+
+                    <div id="mode2Fields" class="ast-hidden">
+                        <input type="text" id="coordinatesPoint1" placeholder="Coordinates of Point 1 (lat, lon)">
+                        <input type="text" id="coordinatesPoint2" placeholder="Coordinates of Point 2 (lat, lon)">
+                        <button id="searchButton2">Find roads and connect points</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="elementor-element elementor-element-6661b1f exad-sticky-section-no exad-glass-effect-no elementor-widget elementor-widget-google_maps" data-id="6661b1f" data-element_type="widget" data-widget_type="google_maps.default">
+                <div class="elementor-widget-container">
+                    <div class="elementor-custom-embed">
+                        <!-- Google Map -->
+                        <div id="map" style="height: 500px;"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
