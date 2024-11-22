@@ -6,8 +6,8 @@
 
                 <div id="controls">
                     <select id="modeSelect" onchange="this.classList.toggle('ast-hidden', this.value !== 'mode1')">
-                        <option value="mode1">Mode 1: Search plot by address</option>
-                        <option value="mode2">Mode 2: Find roads and connect points</option>
+                        <option value="mode1">Prijungimas</option>
+                        <option value="mode2">Įvedimas</option>
                     </select>
 
                     <div id="mode1Fields">
